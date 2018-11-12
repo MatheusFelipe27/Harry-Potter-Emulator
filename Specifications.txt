@@ -1,0 +1,55 @@
+Classes Básicas:
+
+- Bruxo (abstrata) 
+	- Atributos:
+		- String nome
+		- String sobrenome
+		- boolean prisioneiro
+		- String caracVarinha
+		- int idade
+		- String animago
+	- Funções:
+		- usarFeitico
+	- Estudante:
+		- Atributos:
+			- int pontos
+			- Casa casa
+			- int[] caracsCasa
+		- Funções
+			- setCasa
+			- receberPontos
+	- Professor:
+		- Atributos:
+			- Disciplina disciplina
+		-Funções:
+			- atribuirPontos
+
+- Varinha
+	- Atributos:
+		- String material
+		- int flexibilidade
+		- Bruxo bruxo
+		- String caracVarinha
+	- Funções:
+		- escolherBruxo
+
+- Feitiço
+	- Atributos:
+		- boolean proibido
+		- String nome
+		- String efeito
+		- ListaBruxos dominador
+
+- Disciplinas
+	- Atributos:
+		- String nome
+		- Professor professor
+		- ListaEstudantes estudantes
+
+- Casa
+	- Atributos:
+		- String nome
+		- int[] caracsCasa
+		- int pontos
+		- Bruxo fundador
+		- Professor diretor
